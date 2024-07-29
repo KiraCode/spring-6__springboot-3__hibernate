@@ -86,3 +86,42 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:30.735
+!MESSAGE Classpath changed for project: mycoolapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:30.738
+!MESSAGE Boot project ADDED: mycoolapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:30.739
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-29 10:08:31.006
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Tejas\sts-4.21.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Tejas\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes;D:\Tejas\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Tejas\sts-4.21.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.52.0.202401312010\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Tejas/spring-6__springboot-3__hibernate/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1722227911004
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:31.007
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:31.060
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-29 10:08:31.122
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10620
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-29 10:08:37.561
+!MESSAGE Classpath changed for project: mycoolapp
